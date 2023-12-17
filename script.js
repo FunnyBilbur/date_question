@@ -6,9 +6,13 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "Yay, see you on the 18th!";
-    gif.src =
-        "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
-    // yesBtn.
+    gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+    //"https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWp1dmtvODRvcjFjNXo1ZGJ3MWdzazlwamJ3ZGN6OGV3Y2c3aGNsZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/x28cIQSn19Tbi/giphy.gif";
+    //"https://tenor.com/view/peach-and-goma-gif-7882899598842933350.gif";
+    //"https://tenor.com/view/peach-goma-peach-and-goma-peach-cat-goma-send-love-gif-26864999.gif";
+    //    "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+    //https://tenor.com/view/peach-cat-kiss-animated-love-mwah-gif-18052982838303436944
+
     yesBtn.classList.add('hidden');
     noBtn.classList.add('hidden');
 });

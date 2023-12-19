@@ -19,7 +19,14 @@ body {
     width: 100%;
 }
 
-h2,h3 {
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #e94d58;
+    margin: 15px 0;
+}
+
+.question1 {
     text-align: center;
     font-size: 1.5em;
     color: #e94d58;
